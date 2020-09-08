@@ -112,3 +112,15 @@ textarea {
 .footerBack .inputDiv button{background: #ff7a0e;height: 60px;line-height: 60px;width: 170px;color: #ffffff;border:none;float: right;border-radius: 20px;cursor: pointer;outline: none;}
 .footerBack .inputDiv button:hover{border: none;outline: none;}
 .footerBack .company{text-align: right}
+/*手机端页尾*/
+.footerBackMobile{background: #000000;width: 100%;height: 260px;color: #ffffff;
+  display: flex;flex-direction: column;justify-content: center;padding-top: 30px;align-items: center}
+.footerBackMobile .iconDev{margin-bottom: 14px;font-size: 16px;justify-content: flex-start;display: flex;flex-direction: row;align-items: center}
+.footerBackMobile .iconDev img{margin-right: 26px}
+.footerBackMobile .inputDiv{background: #ffffff;height: 40px;border-radius: 10px 20px 20px 10px;margin-bottom: 46px}
+.footerBackMobile .inputDiv .emailInput{background: #ffffff;height: 40px;line-height: 40px;}
+.footerBackMobile .inputDiv .emailInput:focus{border: none;}
+.footerBackMobile .inputDiv button{background: #ff7a0e;height: 40px;line-height: 40px;width: 170px;color: #ffffff;border:none;float: right;border-radius: 20px;cursor: pointer;outline: none;}
+.footerBackMobile .inputDiv button:hover{border: none;outline: none;}
+.footerBackMobile .company{text-align: right}
+.footerBackMobile .qrCode{width: 90px;height: 90px}
