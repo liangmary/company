@@ -1,0 +1,114 @@
+/*公共样式--开始*/
+html, body, div, ul, li, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ol, form, input, textarea, th, td, select {
+  margin: 0;
+  padding: 0;
+}
+*{box-sizing: border-box;font-family: "ZH58-CZH";}
+html, body {
+  min-height: 100%;
+}
+
+body {
+  font-size:14px;
+  color:#333;
+}
+h1, h2, h3, h4, h5, h6{font-weight:normal;}
+ul,ol {
+  list-style: none;
+}
+
+img {
+  border: none;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+  color: #232323;
+}
+
+table {
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+input, textarea {
+  outline: none;
+  border: none;
+}
+
+textarea {
+  resize: none;
+  overflow: auto;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.clearfix:after {
+  content: ".";
+  width: 0;
+  height: 0;
+  visibility: hidden;
+  display: block;
+  clear: both;
+  overflow:hidden;
+}
+
+.fl {
+  float: left
+}
+
+.fr {
+  float: right
+}
+
+.tl {
+  text-align: left;
+}
+
+.tc {
+  text-align: center
+}
+
+.tr {
+  text-align: right;
+}
+
+.ellipse {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.inline{
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 2040078 */
+  src: url('//at.alicdn.com/t/font_2040078_daxwa2bvfb.eot');
+  src: url('//at.alicdn.com/t/font_2040078_daxwa2bvfb.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_2040078_daxwa2bvfb.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_2040078_daxwa2bvfb.woff') format('woff'),
+  url('//at.alicdn.com/t/font_2040078_daxwa2bvfb.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_2040078_daxwa2bvfb.svg#iconfont') format('svg');
+}
+/*页头*/
+.navTop{position: absolute;top: 40px;color: #ffffff;font-size: 21px;z-index: 1;display: flex;flex-direction: row;justify-content: center;width: 100%}
+.navTop ul{display: flex;flex-direction: row;align-items: center}
+.navTop li{margin-right: 60px}
+.navTop li a{color: #ffffff}
+.navTop li:last-child{margin-right: 0}
+/*页尾*/
+.footerBack{background: #000000;width: 100%;height: 260px;color: #ffffff;
+  display: flex;flex-direction: row;justify-content: space-around;padding-top: 30px;align-items: center}
+.footerBack .iconDev{margin-bottom: 14px;font-size: 16px;justify-content: flex-start;display: flex;flex-direction: row;align-items: center}
+.footerBack .iconDev img{margin-right: 26px}
+.footerBack .inputDiv{background: #ffffff;height: 60px;border-radius: 10px 20px 20px 10px;margin-bottom: 46px}
+.footerBack .inputDiv .emailInput{background: #ffffff;height: 60px;line-height: 60px;width: 470px}
+.footerBack .inputDiv .emailInput:focus{border: none;}
+.footerBack .inputDiv button{background: #ff7a0e;height: 60px;line-height: 60px;width: 170px;color: #ffffff;border:none;float: right;border-radius: 20px;cursor: pointer;outline: none;}
+.footerBack .inputDiv button:hover{border: none;outline: none;}
+.footerBack .company{text-align: right}

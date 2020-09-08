@@ -1,0 +1,72 @@
+.navTop{position: absolute;top: 40px;color: #ffffff;font-size: 21px;z-index: 1;display: flex;flex-direction: row;justify-content: center;width: 100%}
+.navTop ul{display: flex;flex-direction: row;align-items: center}
+.navTop li{margin-right: 60px}
+.swiper:nth-child(2n+1) .navTop li a{color: #ffffff}
+.swiper:nth-child(2n) .navTop li a{color: #041b39}
+.navTop li:last-child{margin-right: 0}
+
+/*第一屏*/
+.one{background-image: url("../img/index/1.png");background-size: 100% 100%;width: 100%;height: 100%;
+  display: flex;flex-direction: column;justify-content: center;align-items: center;}
+.one .oneFont{font-family: 'ZH24-ZHBook';font-weight: 400;color: #fff;font-size: 120px;}
+.one .button{background: #f53b4d;color: #fff;width: 224px;height: 65px;text-align: center;
+  line-height: 65px;border-radius: 33px;font-size: 32px;margin-top: 36px;margin-bottom: 80px;cursor: pointer;}
+.input_control{width:568px;height: 44px;line-height: 44px;}
+.one .form_input[type="text"]{ -web-kit-appearance:none;-moz-appearance: none;outline:0;/* 清除原有input样式 */
+  /* 设置我们要的样式 */
+  box-sizing: border-box;text-align:left;font-size:1.2em;height:2.5em;border-radius:22px;border:1px solid #c8cccf;color:#6a6f77;
+  display:block;padding:0 1em;text-decoration:none;width:100%;}
+.one .form_input[type="text"]:focus{border:1px solid #cbc8df;}
+::-moz-placeholder { color: #cbc8df;}/* Mozilla Firefox 19+ */
+.one .form_input::-webkit-input-placeholder{color: #cbc8df;}
+
+/*第二屏*/
+.two{width: 100%;height: 100%;}
+.two h1{font-size: 162px;font-family: ZH24-ZHBook;color: #041b39;float: right;margin-top: 203px;margin-right: 209px;margin-bottom: 40px;}
+.two h1 span{font-size: 192px;font-family: ZH24-ZHBook;}
+.two .grid{float: right;margin-right: 240px;display: grid;grid-template-columns: 25% 25% 25% 25%;grid-template-rows:  25% 25% 25% 25%;height: 200px;
+position: absolute;right: 0;bottom: 200px}
+.two .grid a{background: #071e26;font-size: 24px;color: #fff;width: 177px;height: 40px;line-height: 40px;
+  text-align: center;margin-bottom: 10px;margin-right: 20px;cursor: pointer;}
+.two .grid a:hover{background: #be0900;}
+
+/*第三屏*/
+.three{background-image: url("../img/index/3.jpg");background-size: 100% 100%;width: 100%;height: 100%;color: #fff;}
+.three h1 span:nth-child(2n){font-family: ZH24-ZHBook;font-size: 81px;}
+.three h1 span:nth-child(2n+1){font-family: ZH24-ZHBook;font-size: 97px;}
+.three h1 span:nth-child(5),.three h1 span:nth-child(7){font-family: ZH24-ZHBook;font-size: 78px;}
+.three .btn a{background: #00243d;color: #fff;height: 44px;line-height: 44px;width: 146px;text-align: center;
+  display: inline-block;font-size: 20px;border-radius: 22px;}
+.three .btn a:hover{background: #be0900}
+/*第四屏*/
+.four{background-image: url("../img/index/4.jpg");background-size: 100% 100%;width: 100%;height: 100%;
+  display: flex;flex-direction: row;justify-content: space-around;align-items: center}
+.four .fourBlock{background: #fff;height: 600px;display: flex;flex-direction: column;width: 500px;
+  justify-content: center;align-items: center;box-shadow: 0 6px 10px 6px rgba(0,0,0,0.44);cursor: pointer}
+.four .fourBlock .img{height: 350px;justify-content: flex-end;display: flex;flex-direction: column}
+.four .fourBlock img{width: 450px;align-items: flex-end}
+.four .fourBlock h6{font-size: 22px;color: #000000;margin-top: 35px;margin-bottom: 25px}
+.four .fourBlock .cont{font-size: 15px;color: #000000;}
+
+/*第五屏*/
+.five{display: flex;flex-direction: row;flex-wrap: wrap;height: 100%}
+.five img{width: 25%;height: 50%;}
+.five .five-block{background: #282828;color: #ffffff;height: 50%;width: 25%;font-size: 26px;cursor: pointer}
+.five .five-block:nth-child(2n){display: flex;flex-direction: column;align-items: flex-start;justify-content: flex-end;
+  padding-left: 68px;padding-bottom: 80px;text-align: left}
+.five .five-block:nth-child(2n+1){display: flex;flex-direction: column;align-items: flex-end;justify-content: flex-end;
+  padding-right: 68px;padding-bottom: 80px;text-align: right}
+.five .five-block h3{font-size: 42px;margin-top: 38px;margin-bottom: 28px}
+.five .five-block img{width: 62px;height: 50px}
+
+/*第六屏*/
+.six-map{height:500px;margin-left: 5%;margin-right: 5%;margin-top: 160px;position: absolute;z-index: 2;bottom: 265px;width: 90%}
+.sixBack{background: #000000;width: 100%;height: 490px;bottom: 0;position: absolute;color: #ffffff;
+  display: flex;flex-direction: row;justify-content: space-around;padding-top: 270px;align-items: center}
+.sixBack .iconDev{margin-bottom: 14px;font-size: 16px;justify-content: flex-start;display: flex;flex-direction: row;align-items: center}
+.sixBack .iconDev img{margin-right: 26px}
+.sixBack .inputDiv{background: #ffffff;height: 60px;border-radius: 10px 20px 20px 10px;margin-bottom: 46px}
+.sixBack .inputDiv .emailInput{background: #ffffff;height: 60px;line-height: 60px;width: 470px}
+.sixBack .inputDiv button{background: #ff7a0e;height: 60px;line-height: 60px;width: 170px;color: #ffffff;border:none;float: right;border-radius: 20px;cursor: pointer;outline: none;}
+.sixBack .inputDiv button:hover{border: none;outline: none;}
+.sixBack .company{text-align: right}

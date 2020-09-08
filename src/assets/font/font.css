@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'ZH58-CZH';
+  src: url('字魂58号-创中黑.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ZH24-ZHBook';
+  src: url('字魂24号-镇魂手书.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ZH55-LYBook';
+  src: url('字魂55号-龙吟手书.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
