@@ -95,12 +95,35 @@ textarea {
   url('//at.alicdn.com/t/font_2040078_daxwa2bvfb.ttf') format('truetype'),
   url('//at.alicdn.com/t/font_2040078_daxwa2bvfb.svg#iconfont') format('svg');
 }
+/*手机端页面列表*/
+
+.listMobile{display: flex;flex-direction: row;justify-content: space-between;border-bottom: 5px solid #a8b3c4;
+  width: 80vw;padding-top: 48px;padding-bottom: 30px;margin: 0 auto}
+.listMobile .leftImg{margin-right: 1vw;width:23vw ;height: 17.5vw}
+.listMobile .rightCont{display: flex;flex-direction: column;justify-content: space-around;width: 900px}
+.listMobile .tit{font-size: 20px;color: #26406c;display: flex;flex-direction: row;justify-content: space-between;align-items: center}
+.listMobile .tit .leftTit{height: 22px;overflow: hidden;line-height: 22px}
+.listMobile .tit .tan{width: .6vw;margin-right: 1vw}
+.listMobile .tit .rightIcon{width: 3vw}
+.listMobile .time-read{display: flex;flex-direction: row;justify-content: space-between;font-size: 12px}
+
 /*页头*/
-.navTop{position: absolute;top: 40px;color: #ffffff;font-size: 21px;z-index: 1;display: flex;flex-direction: row;justify-content: center;width: 100%}
+.navTop{position: fixed;top: 0;padding-left: 7vw;padding-right: 7vw;width: 100vw;display: flex;flex-direction: row;justify-content: space-between}
+.navTop img{width: 50px}
+.navTop .font{font-family: ZH58-CZH;font-size: 32px;color: #ffffff}
+/*.navTop{position: absolute;top: 40px;color: #ffffff;font-size: 21px;z-index: 1;display: flex;flex-direction: row;justify-content: center;width: 100%}*/
 .navTop ul{display: flex;flex-direction: row;align-items: center}
 .navTop li{margin-right: 60px}
 .navTop li a{color: #ffffff}
 .navTop li:last-child{margin-right: 0}
+
+.rightNav {position: fixed;width: 65%;height: 100%;top: 0;left: 0;background: white;z-index: 100;max-width: 200px;}
+.rightNav .tab-nav {padding: 1rem;list-style: none;}
+.rightNav .tab-nav li {display: flex;align-items: center;flex-wrap: wrap;cursor: pointer;user-select: none;}
+.rightNav .tab-nav .nav {padding: 1rem 0;width: 100%;display: flex;align-items: center;justify-content: space-between;}
+.rightNav .tab-nav .nav i {transition: 0.3s;color: rgb(0, 225, 255);}
+.rightNav .tab-nav .nav span {display: inline-block;width: 100%;text-align: left;color: #808080;font-size: 0.88rem;margin-left: 1rem;}
+.rightNav .tab-nav .nav:focus {background: rgb(0, 225, 255);color: white;opacity: 0.5;}
 /*页尾*/
 .footerBack{background: #000000;width: 100%;height: 260px;color: #ffffff;
   display: flex;flex-direction: row;justify-content: space-around;padding-top: 30px;align-items: center}
@@ -115,12 +138,12 @@ textarea {
 /*手机端页尾*/
 .footerBackMobile{background: #000000;width: 100%;height: 260px;color: #ffffff;
   display: flex;flex-direction: column;justify-content: center;padding-top: 30px;align-items: center}
-.footerBackMobile .iconDev{margin-bottom: 14px;font-size: 16px;justify-content: flex-start;display: flex;flex-direction: row;align-items: center}
-.footerBackMobile .iconDev img{margin-right: 26px}
+.footerBackMobile .iconDev{margin-bottom: 10px;font-size: 14px;justify-content: flex-start;display: flex;flex-direction: row;align-items: center}
+.footerBackMobile .iconDev img{margin-right: 10px;width: 20px;height: 20px}
 .footerBackMobile .inputDiv{background: #ffffff;height: 40px;border-radius: 10px 20px 20px 10px;margin-bottom: 46px}
-.footerBackMobile .inputDiv .emailInput{background: #ffffff;height: 40px;line-height: 40px;}
+.footerBackMobile .inputDiv .emailInput{background: #ffffff;height: 40px;line-height: 40px;border-radius: 10px;width: 200px;padding-left: 10px}
 .footerBackMobile .inputDiv .emailInput:focus{border: none;}
-.footerBackMobile .inputDiv button{background: #ff7a0e;height: 40px;line-height: 40px;width: 170px;color: #ffffff;border:none;float: right;border-radius: 20px;cursor: pointer;outline: none;}
+.footerBackMobile .inputDiv button{background: #ff7a0e;height: 40px;line-height: 40px;width: 100px;color: #ffffff;border:none;float: right;border-radius: 20px;cursor: pointer;outline: none;}
 .footerBackMobile .inputDiv button:hover{border: none;outline: none;}
 .footerBackMobile .company{text-align: right}
-.footerBackMobile .qrCode{width: 90px;height: 90px}
+.footerBackMobile .qrCode{width: 80px;height: 80px;margin-right: 10px}
