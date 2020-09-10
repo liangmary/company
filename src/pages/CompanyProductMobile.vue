@@ -27,8 +27,8 @@
     <div class="tabs">
       <div v-for="(value,index) in tab" class="tab" :class="{active:value.isactive}">
         <div style="margin-top: 40px">
-          <div class="chineseTit">{{value.title}}</div>
-          <div class="englishTitle">{{value.entitle}}</div>
+          <div class="chineseTitMobile">{{value.title}}</div>
+          <div class="englishTitleMobile">{{value.entitle}}</div>
         </div>
         <img :src="value.img" alt="" style="width: 100%">
       </div>

@@ -22,8 +22,8 @@
     <div>
       <div class="tab">
         <div style="margin-top: 87px">
-          <div class="chineseTit">新闻动态</div>
-          <div class="englishTitle">news</div>
+          <div class="chineseTitMobile">新闻动态</div>
+          <div class="englishTitleMobile">news</div>
         </div>
         <div class="businessCont">
           <div  v-for="(item) in soft">
@@ -118,7 +118,5 @@
   .backTop{background: url('../../static/img/newsInfo/back.jpg');background-size: 100% 500px;height: 500px;
     display: flex;flex-direction: row;align-items: center;justify-content: center}
   .backTop img{width: 77%;height: auto}
-  .chineseTit{color: #041b39;font-size: 35px;font-weight: bold;z-index: 10;letter-spacing:-3px}
-  .englishTitle{color: #bfbfbf;font-size: 40px;font-family: 'ZH55-LYBook';text-transform:Uppercase;opacity: 0.22;margin-top: -25px}
   .businessCont{display: flex;flex-direction: column;align-items: center}
 </style>

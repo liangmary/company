@@ -28,8 +28,8 @@
     <div class="tabs">
       <div v-for="(value,index) in tab" class="tab" :class="{active:value.isactive}">
         <div style="margin-top: 87px">
-          <div class="chineseTit">{{value.title}}</div>
-          <div class="englishTitle">{{value.enTitle}}</div>
+          <div class="chineseTitMobile">{{value.title}}</div>
+          <div class="englishTitleMobile">{{value.enTitle}}</div>
         </div>
         <div v-if="index===0" style="margin: 0 auto;">
           <div v-for="(item) in value.soft">
@@ -144,6 +144,4 @@
 
   .tabs .tab{display: none;}
   .tabs .tab.active{display:block;}
-  .chineseTit{color: #041b39;font-size: 35px;font-weight: bold;z-index: 10;letter-spacing:-3px}
-  .englishTitle{color: #bfbfbf;font-size: 40px;font-family: 'ZH55-LYBook';text-transform:Uppercase;opacity: 0.22;margin-top: -25px}
 </style>
